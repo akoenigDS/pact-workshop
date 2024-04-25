@@ -46,7 +46,7 @@ public class PactVerificationTest {
       return new SelectorBuilder()
         .deployedOrReleased()
         .mainBranch()
-        .branch("step11");
+        .branch("feature/broker");
     }
 
   @TestTemplate
